@@ -1,0 +1,140 @@
+#container{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+.footer{
+    width: 1000px;
+    height: 80px;
+    background-color:black;
+    color:white;
+    text-align: center;
+    clear: both;
+    
+}
+.one
+{ 
+    height: 200px;
+    width: 1000px;
+    background-color:royalblue;
+    margin-top: 2px;
+     
+
+ }
+ .two{
+    width: 333.33px;
+    height: 400px;
+    background-color: green;
+    color: aliceblue;
+    float: left;
+}
+.three{
+    width: 333.33px;
+    height: 400px;
+    background-color: orangered;
+    color: aliceblue;
+    float: left;
+}
+.four{
+    width: 333.33px;
+    height: 400px;
+    background-color: yellow;
+    color: aliceblue;
+    float: left;
+} 
+@media screen and (max-width: 999px){
+    #container{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .footer{
+        width: 100%px;
+        height: auto;
+        background-color:green;
+        
+        
+    }
+    .one
+    { 
+        height: auto;
+        width: 100%;
+        
+        
+         
+    
+     }
+     img{
+        width: 100%;
+        height: auto;
+     }
+     .two{
+        width: 100%;
+        height: 400;
+        background-color: brown;
+        color: aliceblue;
+        
+    }
+    .three{
+        width: 50%;
+        height: 400px;
+        background-color: black;
+        color: aliceblue;
+        float: left;
+    }
+    .four{
+        width: 50%;
+        height: 400px;
+        background-color: palevioletred;
+        color: aliceblue;
+        float: left;
+    } 
+}
+@media screen and (max-width:666px){
+    #container{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .footer{
+        width: 100%px;
+        height: auto;
+        background-color:green;
+        
+        
+    }
+    .one
+    { 
+        height: auto;
+        width: 100%;
+        
+        
+         
+    
+     }
+     img{
+        width: 100%;
+        height: auto;
+     }
+     .two{
+        width: 100%;
+        height: 400;
+        background-color: brown;
+        color: aliceblue;
+        
+    }
+    .three{
+        width: 100%;
+        height: 400px;
+        background-color: black;
+        color: aliceblue;
+        
+    }
+    .four{
+        width: 100%;
+        height: 400px;
+        background-color: palevioletred;
+        color: aliceblue;
+        float: left;
+    } 
+}

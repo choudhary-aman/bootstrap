@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html><style>
+    .container{
+        width:100%;
+        height:auto;
+        background-color:orangered;
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .one{
+        width:25%;
+        height:75%;
+        background-color:red;
+        text-align: center;
+        line-height: 250px;
+        margin:10px;
+    }
+.two{
+    width:25%;
+    height:75%;
+    background-color:yellow;
+    text-align: center;
+    line-height: 250px;
+    margin:10px;
+}
+.three{
+    width:25%;
+    height:75%;
+    background-color:grey;
+    text-align: center;
+    line-height: 250px;
+    margin:10px;
+}
+@media screen and (max-width:999px) {
+    .container{
+        width:100%;
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .one{
+        width:75%;
+        height:50%;
+    }
+    .two{
+        width:75%;
+        height:50%;
+    }
+    .three{
+        width:75%;
+        height:50%;
+    }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="one">1</div>
+<div class="two">2</div>
+<div class="three">3</div>
+</div>
+</body>
+</html>
